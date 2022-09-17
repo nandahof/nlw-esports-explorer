@@ -36,7 +36,7 @@ header div {
     display: flex;
     padding: 4px;
 
-    transition: transform ,3s;
+    transition: transform .3s;
 }
 
 
@@ -118,7 +118,7 @@ section ul li:hover {
 /* animation */
 
 header div {
-    animation: fromTop .7s 2s backwards;
+    animation: fromTop .7s .2s backwards;
  
 }
 
@@ -141,12 +141,12 @@ main section:nth-child(3){
 @keyframes fromTop {
     from {
         opacity: 0; 
-        transform: translateY (-30px)
+        transform: translateY(-30px)
     }
 
     to {
         opacity: 1;
-        transform: translateY (0)
+        transform: translateY(0)
     }
 
 }
@@ -154,12 +154,12 @@ main section:nth-child(3){
 @keyframes fromBottom {
     from {
         opacity: 0; 
-        transform: translateY (30px)
+        transform: translateY(30px)
     }
 
     to {
         opacity: 1;
-        transform: translateY (0)
+        transform: translateY(0)
     }
 
 }
